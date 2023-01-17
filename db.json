@@ -1,0 +1,77 @@
+{
+    "reviews": [
+        {
+            "id": 1,
+            "name": "Chaarugash R J",
+            "review": "Best shop for RE and very good person"
+        },
+        {
+            "id": 2,
+            "name": "Ashwath Ravi",
+            "review": "Good in quality.....doing best ....in class"
+        },
+        {
+            "id": 3,
+            "name": "Madhu prasath",
+            "review": "Excellent work, lot of accessories with affordable cost"
+        },
+        {
+            "id": 4,
+            "name": "Dinesh kumar",
+            "review": "Very good services. Accessories are very genuine.Kalai TN37 Bullet Accessories"
+        },
+        {
+            "id": 5,
+            "name": "Guruprakash",
+            "review": "Worth for money, good quality"
+        },
+        {
+            "id": 6,
+            "name": "Aravinth Kumaran",
+            "review": "Great place for Enfield lovers"
+        }
+  
+    ],
+     "Products" : [
+          {
+            "id": 1,
+            "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+            "body": "100"  
+            },
+          {
+            "id": 2,
+            "title": "qui est esse",
+            "body": "700"  
+          },
+          {
+            "id": 3,
+            "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+            "body": "900"  
+          }
+     ],
+     "news" :[
+      {
+        "id": 1,
+        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        "body": "sports"  
+        },
+      {
+        "id": 2,
+        "title": "qui est esse",
+        "body": "cinima"  
+      },
+      {
+        "id": 3,
+        "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+        "body": "politics"  
+      }
+  
+     ],
+     "dashboard" : {
+      "posts" : 5,
+      "likes" : 20,
+      "followers" : 5
+     }
+  
+    
+  }

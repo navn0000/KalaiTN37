@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&family=PT+Sans&display=swap');
+
+.headerBackground {
+    background-color: black;
+  }
+.navLinks a{
+  color: black;
+}
+.navLinks a:hover{
+  color: red;
+}
+.navLinks {
+  margin-left: auto;
+}
+.navLinksSystem a{
+  color: white;
+  font-family: 'Chivo Mono', monospace;
+
+}
+.navLinksSystem a:hover{
+  color: red;
+}
+.navLinksSystem {
+  margin-left: auto;
+}
+.toggleIcon{
+  color: white !important;
+  background-color: white;
+  font-size: 10px;
+}
+#mobileView{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #mobileView{
+    display: block;
+  }
+  #systemView{
+    display: none;
+  }
+}

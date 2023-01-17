@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&family=PT+Sans&display=swap');
+
+.productsOuter{
+        background-image: url("../public/assests/Kalaihome.jpg");
+        background-size: cover;
+}
+.productsInner{
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+.productContainer{
+    background-color: rgba(0,0,0,0.6);
+}
+.productsInner a {
+    text-decoration: none;
+}
+.productsInner h1{
+    font-size: 18px;
+    color: red;
+    font-family: 'Chivo Mono', monospace;
+}
+.productsInner h6{
+    color: white;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 20px;
+}
+.explorebtn{
+    width: 90%;
+    padding: 5px;
+    background: wheat;
+    border-color: red;
+    color: black;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'PT Sans', sans-serif;
+    margin: 5px auto
+}
+.explorebtn:hover{
+    background-color: red;
+    border-color: wheat;
+
+}
+.whatsappIcon a {
+    font-size: 60px;
+    position: fixed;
+    bottom: 10px;
+    left: 95%;
+    color: green;
+    margin-right: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: end;
+  }
+  @media only screen and (max-width: 600px) {
+  .whatsappIcon a {
+    font-size: 30px;
+    position: fixed;
+    bottom: 0px;
+    left: 85%;
+    color: green;
+    margin-right: 0px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: end;    
+  }
+
+  .productsInner{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+}

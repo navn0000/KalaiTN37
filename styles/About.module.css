@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&family=PT+Sans&display=swap');
+
+.aboutOuter{
+    background-image: url("../public/assests/aboutus.jpg");
+    height: 700px;
+    background-size: cover;
+}
+.aboutinner{
+    background-color: rgba(0,0,0,0.6);
+    height: 700px;
+}
+.aboutContent{
+    padding-top: 50px;
+    color: white;
+}
+.aboutContent p {
+    font-family: 'PT Sans', sans-serif;
+}
+.aboutContent h1{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 64px;
+}
+.imageContainer{
+    text-align: center;
+    margin-top: 30px;
+}
+.imageContainer img{
+    border-radius: 50% !important;
+    border: 2px solid white;
+}
+.imageContainer h6{
+    font-family: 'Chivo Mono', monospace;
+    padding: 5px;
+    font-size: 20px;
+    margin: 2px auto;
+    background-color: black;
+    width: 80%;
+}
+.imageContainer h3{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 16px;
+    background-color: black;
+    width: 50%;
+    margin: 5px auto;
+}
+.whatsappIcon a {
+    font-size: 60px;
+    position: fixed;
+    bottom: 10px;
+    left: 95%;
+    color: green;
+    margin-right: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: end;
+  }
+@media only screen and (max-width: 600px) {
+    .aboutOuter{
+        height: 900px;
+        background-image: url("../public/assests/aboutusMobile.jpg");
+        background-size: cover;
+    }
+    .aboutinner{
+        background-color: rgba(0,0,0,0.6);
+        height: 900px;
+    }
+    .aboutContent h1{
+        font-family: 'Chivo Mono', monospace;
+        font-size: 28px;
+    }
+    .whatsappIcon a {
+        font-size: 30px;
+        position: fixed;
+        bottom: 0px;
+        left: 85%;
+        color: green;
+        margin-right: 0px;
+        margin-bottom: 0;
+        padding: 0;
+        text-align: end;    
+      }
+}
+
+

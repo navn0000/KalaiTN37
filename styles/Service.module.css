@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&family=PT+Sans&display=swap');
+
+.servicesOuter{
+    background-image: url("../public/assests/products.jpg");
+    background-size: cover;
+}
+.serviceContainer{
+    background-color: rgba(0,0,0,0.6);
+}
+.servicesInner{
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 20px;
+    text-align: center;
+}
+.servicesInner h6{
+    color: white;
+    padding-top: 20px;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 20px;
+}
+.imageCard{
+    /* background-color: black; */
+    margin-bottom: 10px;
+    border: none;
+    /* background-color: transparent; */
+    width: 100%;
+}
+.cardinnerBody{
+    margin: 0;
+}
+.whatsappIcon a {
+    font-size: 60px;
+    position: fixed;
+    bottom: 10px;
+    left: 95%;
+    color: green;
+    margin-right: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: end;
+  }
+  @media only screen and (max-width: 600px) {
+    .whatsappIcon a {
+      font-size: 30px;
+      position: fixed;
+      bottom: 0px;
+      left: 85%;
+      color: green;
+      margin-right: 0px;
+      margin-bottom: 0;
+      padding: 0;
+      text-align: end;    
+    }
+    .servicesInner{
+        width: 100%;
+    
+    }
+  }
